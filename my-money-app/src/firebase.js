@@ -2,11 +2,13 @@
 import { initializeApp } from 'firebase/app';
 import { getAuth, GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
 
-require('dotenv').config();
+// require('dotenv').config();
 
 const firebaseConfig = {
-  apiKey: process.env.AUTH_KEY,
-  authDomain: process.env.AUTH_DOMAIN,
+  // apiKey: process.env.AUTH_KEY,
+  // authDomain: process.env.AUTH_DOMAIN,
+  apiKey: 'AIzaSyB6sIRi8E9wDeR4Sj1XZq7_eIGSG1uOdqQ',
+  authDomain: 'money-app-b0d7a.firebaseapp.com',
   // ... other details from Firebase console
 };
 
